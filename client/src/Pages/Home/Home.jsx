@@ -90,7 +90,7 @@ return (
         />
       </div>
 
-      <div className="mt-4 ml-0">
+      <div className="mt-4 ml-0 ">
         {currentItems.map((question, index) => (
           <div key={index}>
             <Link
@@ -107,18 +107,18 @@ return (
                   </div>
                 </div>
                 <div className="col-10 col-md-9 my-md-4">
-                  <p className="question_title">{question.title}</p>
+                  <p className="question_title">{question.description}</p>
                 </div>
                 <div className="col-2 col-md-1">
                   <div className="next_arrow">
-                    <NavigateNextIcon />
+                    <NavigateNextIcon fontSize="25" />
                   </div>
                 </div>
               </div>
             </Link>
             {user.username === question.user_name && (
               <div className="row mt-2">
-                <div className="col-12 d-flex justify-content-end mb-5">
+                <div className="col-12 d-flex justify-content-end mb-3">
                   <button
                     className="edit-question btn btn-link text-decoration-none"
                     onClick={() => editQuestionHandler(question.question_id)}
@@ -128,7 +128,7 @@ return (
                 </div>
               </div>
             )}
-            <hr className="mt-2" />
+            <hr />
           </div>
         ))}
       </div>
