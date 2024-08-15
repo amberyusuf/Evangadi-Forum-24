@@ -71,9 +71,9 @@ return (
     <div className="container mt-3 mb-5 pl-5">
       <div className="row mt-4 mb-5 pl-5 d-flex align-items-center">
         <div className="col-md-6 d-flex">
-          <a href="/ask">
+          <Link href="/ask">
             <button className="btn btn-primary">Ask Question</button>
-          </a>
+          </Link>
         </div>
         <div className="col-md-6 col-4 pt-2 welcome_message text-md-right text-center">
           Welcome, <span>{user.username}</span>

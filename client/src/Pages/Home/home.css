@@ -20,7 +20,7 @@
 }
 
 .welcome_message span {
-  color: #0B5ED7;
+  color: #0b5ed7;
   font-weight: 900;
   font-size: 1.3rem;
   padding: 2px 5px;
@@ -33,7 +33,7 @@
   margin: 20px auto;
   outline: none;
   width: 100%;
-  max-width: 1200px; 
+  max-width: 1200px;
   padding: 15px;
   border: 0.3px solid rgb(204, 204, 204);
   border-radius: 5px;
@@ -42,16 +42,15 @@
 }
 
 .questions_section .container {
-  width: 100%; 
-  max-width: 1200px; 
-  margin: 0 auto; 
-  padding: 0 15px; 
-
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .single-question {
   position: relative;
- 
+
   color: black;
   padding: 15px;
   text-decoration: none;
@@ -59,13 +58,13 @@
 }
 
 .edit-question {
-    margin-top: 10px 0;
-    background-color: #0B5ED7;
-    color: #000;
+  margin-top: 10px 0;
+  background-color: #0b5ed7;
+  color: #000;
 }
 .single-question:hover {
   transform: scale(1.01);
-   background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .profile_icon {
@@ -87,17 +86,16 @@
   transform: scale(1.1);
 }
 .single-question .user_name {
-  font-family: 'Cursive', sans-serif;
+  font-family: "Cursive", sans-serif;
   margin-top: 30px;
-
 }
 
 .single-question .user_name span {
   font-family: Arial, sans-serif;
   letter-spacing: 2px;
   padding: 7px;
-   color: #0B5ED7;
-  font-weight:700;
+  color: #0b5ed7;
+  font-weight: 700;
 }
 
 .questions_section a {
@@ -109,5 +107,3 @@
   text-decoration: none;
   transform: scale(1.02);
 }
-
-

@@ -8,7 +8,6 @@ import { AuthContext } from "../AuthContext/AuthContext";
 
 const Header = () => {
   const navigate = useNavigate();
-  // const token2 = localStorage.getItem("token");
   const { token } = useContext(AuthContext);
 
   const handleLogoClick = () => {
