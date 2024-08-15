@@ -111,7 +111,7 @@ return (
                 </div>
                 <div className="col-2 col-md-1">
                   <div className="next_arrow">
-                    <NavigateNextIcon fontSize="25" />
+                    <NavigateNextIcon/>
                   </div>
                 </div>
               </div>
